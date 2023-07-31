@@ -169,9 +169,10 @@ label {
   margin: 20px;
   padding-top: 20px;
 }
-.yt-video {
-  display: flex;
-  justify-content: center;
+.yt-video iframe {
+  display: inline;
+  width: 960px;
+  height: 500px;
   margin: 50px;
 }
 video {
